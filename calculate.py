@@ -8,23 +8,23 @@ hex_sec_num = hex(sec_num)
 print("Location of second number : " ,hex_sec_num)
 
 a1 =  f_num + sec_num
-print("Answer of addition  = " , f_num + sec_num)
+print("Answer of addition  = " , a1)
 
 a2 =  f_num * sec_num
-print("Answer of multiplication  = " , f_num * sec_num)
+print("Answer of multiplication  = " , a2)
 
 
 a3 = f_num - sec_num
 a4 = f_num / sec_num
 if f_num > sec_num : 
-    print("Answer  of subtration = " ,f_num - sec_num)
-    print("Answer of divsion  = " ,f_num / sec_num)
+    print("Answer  of subtration = " ,a3)
+    print("Answer of divsion  = " ,a4)
 
 a5 = sec_num - f_num
 a6 = sec_num / f_num
 if f_num < sec_num :
-    print("Answer of subtration = " ,sec_num - f_num)
-    print("Answer of divsion = " ,sec_num / f_num)
+    print("Answer of subtration = " ,a5)
+    print("Answer of divsion = " ,a6)
 
 hex_a1 = hex(a1)
 print("Location of addition answer  : " ,hex_a1)
